@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.NewsApp" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorPrimary">@color/purple_200</item>
+        <item name="android:statusBarColor">@color/purple_200</item>
+    </style>
+
+    <style name="Theme.NewsApp" parent="Base.Theme.NewsApp" />
+
+    <style name="App.Custom.Indicator" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:color">@color/teal_200</item>
+    </style>
+
+</resources>
